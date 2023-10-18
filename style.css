@@ -1,0 +1,50 @@
+/*use of position relative for our main logo*/
+#full{
+    position: relative;
+    left: 20px;
+}
+/*use of positon sticky for our nav bar to stick at top*/
+nav{
+    position: sticky;
+    top: 0px;
+}
+/*use of fixed position for our logo */
+#small{
+    position: fixed;
+    top: 5px;
+}
+/*as here due to absolute property , what ever paddings or margins we
+give to it will be counted from its last element which position relative 
+other wise it will align with taking out page as reletive parent */
+#first{
+    position: absolute ;
+    top: 200px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEBx9Wr0-Vrvo7-X_EwAXnCxBrBODj3sjPLE_6DZPA&s") ;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 20px;
+}
+
+
+
+
+nav a {
+    text-decoration: none;
+    }
+img {
+    height: 20px;
+}
+div {
+    padding: 40px;
+}
+a{
+    padding: 50px;
+    color: bisque;
+}
+nav{
+    background-color: black;
+    margin-left: 20px;
+}
+body{
+    background-color: aqua;
+}
